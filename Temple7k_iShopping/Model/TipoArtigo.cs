@@ -8,5 +8,7 @@ namespace Temple7k_iShopping.Model
 {
     internal class TipoArtigo
     {
+        public int Id { get; set; }
+        public string Tipo { get; set; }
     }
 }

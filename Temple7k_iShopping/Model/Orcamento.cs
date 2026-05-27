@@ -8,5 +8,11 @@ namespace Temple7k_iShopping.Model
 {
     internal class Orcamento
     {
+        public int Id { get; set; }
+        public decimal Valor { get; set; }
+        public DateTime DataCriacao { get; set; }
+        public DateTime DataAlteracao { get; set; }
+        public int utilizadorCriouId { get; set; }
+        public int utilizadorAlterouId { get; set; }
     }
 }
