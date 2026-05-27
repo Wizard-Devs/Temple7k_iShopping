@@ -8,5 +8,8 @@ namespace Temple7k_iShopping.Model
 {
     internal class ItemPrevisto
     {
+        public int Id { get; set; }
+        public int CompraId { get; set; }
+        public int QuantidadePrevista { get; set; }
     }
 }
