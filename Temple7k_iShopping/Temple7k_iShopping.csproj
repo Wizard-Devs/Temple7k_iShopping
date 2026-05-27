@@ -65,6 +65,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\AppInitializer.cs" />
     <Compile Include="Model\Artigo.cs" />
     <Compile Include="Model\Compra.cs" />
     <Compile Include="Model\iShoppingContext.cs" />

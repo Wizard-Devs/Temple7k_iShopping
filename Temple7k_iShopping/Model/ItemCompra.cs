@@ -8,5 +8,14 @@ namespace Temple7k_iShopping.Model
 {
     internal class ItemCompra
     {
+        public int Id { get; set; }
+        public int ArtigoId { get; set; }
+        public string Nome { get; set; }
+        public int QuantidadeAdquirida { get; set; }
+        public decimal PrecoUnitario { get; set; }
+        public DateTime DataCriacao { get; set; }
+        public DateTime DataAlteracao { get; set; }
+        public int utilizadorCriouId { get; set; }
+        public int utilizadorAlterouId { get; set; }
     }
 }
